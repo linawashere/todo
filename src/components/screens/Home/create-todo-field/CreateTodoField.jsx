@@ -23,7 +23,7 @@ const CreateTodoField = ({ setTodos }) => {
         value={title}
         onKeyPress={(e) => e.key === "Enter" && addTodo(title)}
         className="bg-transparent w-full border-none outline-none"
-        placeholder="Add a task"
+        placeholder="Add a tasks"
       />
     </div>
   );
